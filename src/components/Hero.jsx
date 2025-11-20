@@ -33,7 +33,8 @@ const Hero = () => {
                     color: 'var(--text-color)',
                     maxWidth: '15ch',
                     marginLeft: 'auto',
-                    marginRight: 'auto'
+                    marginRight: 'auto',
+                    letterSpacing: 'normal'
                 }}>
                     Nurturing Potential for the <span className="gradient-text">Post-Human Era</span>
                 </h1>
