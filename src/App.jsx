@@ -8,15 +8,7 @@ import './index.css';
 function App() {
   return (
     <div className="app">
-      <nav className="glass-panel nav-container" style={{
-        position: 'fixed',
-        top: '20px',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        width: '90%',
-        maxWidth: '1200px',
-        zIndex: 1000
-      }}>
+      <nav className="glass-panel nav-container">
         <div style={{ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'var(--font-display)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <img src="./vite.svg" alt="Beta Academy Logo" style={{ height: '1.5rem' }} />
           BETA ACADEMY
