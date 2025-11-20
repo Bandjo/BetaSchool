@@ -2,7 +2,7 @@
   "name": "beta-academy",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "https://Bandjo.github.io/BetaSchool/",
   "type": "module",
   "scripts": {
     "dev": "vite",

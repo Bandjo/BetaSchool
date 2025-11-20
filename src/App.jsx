@@ -21,7 +21,8 @@ function App() {
         alignItems: 'center',
         padding: '1rem 2rem'
       }}>
-        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'var(--font-display)' }}>
+        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'var(--font-display)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <img src="/vite.svg" alt="Beta Academy Logo" style={{ height: '1.5rem' }} />
           BETA ACADEMY
         </div>
         <div style={{ display: 'flex', gap: '2rem' }}>

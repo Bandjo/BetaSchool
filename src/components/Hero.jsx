@@ -30,10 +30,12 @@ const Hero = () => {
                     fontSize: 'clamp(3rem, 8vw, 6rem)',
                     lineHeight: 1.1,
                     marginBottom: '1.5rem',
-                    color: 'var(--text-color)'
+                    color: 'var(--text-color)',
+                    maxWidth: '15ch',
+                    marginLeft: 'auto',
+                    marginRight: 'auto'
                 }}>
-                    Nurturing Potential for the <br />
-                    <span className="gradient-text">Post-Human Era</span>
+                    Nurturing Potential for the <span className="gradient-text">Post-Human Era</span>
                 </h1>
 
                 <p style={{
