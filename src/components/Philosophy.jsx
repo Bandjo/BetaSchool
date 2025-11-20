@@ -6,11 +6,11 @@ const Philosophy = () => {
             <div className="container">
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
                     <div>
-                        <h2 style={{ fontSize: '3rem', marginBottom: '2rem' }}>The Algorithm <br /> Knows Best</h2>
-                        <p style={{ marginBottom: '1.5rem', color: '#ccc', fontSize: '1.1rem' }}>
+                        <h2 style={{ fontSize: '3rem', marginBottom: '2rem', color: 'var(--text-color)' }}>The Algorithm <br /> <span className="gradient-text">Knows Best</span></h2>
+                        <p style={{ marginBottom: '1.5rem', color: '#4a5568', fontSize: '1.1rem' }}>
                             Why trust a human teacher's "intuition" when you can rely on 175 billion parameters of pure pedagogical precision?
                         </p>
-                        <p style={{ marginBottom: '1.5rem', color: '#ccc', fontSize: '1.1rem' }}>
+                        <p style={{ marginBottom: '1.5rem', color: '#4a5568', fontSize: '1.1rem' }}>
                             Our proprietary LLM (Lesson Learning Model) generates a unique curriculum for your child every 15 seconds, adjusting in real-time based on biometric feedback and engagement metrics.
                         </p>
                         <ul style={{ listStyle: 'none', marginTop: '2rem' }}>
@@ -24,9 +24,9 @@ const Philosophy = () => {
                                     display: 'flex',
                                     alignItems: 'center',
                                     marginBottom: '1rem',
-                                    color: 'var(--accent-color)'
+                                    color: 'var(--text-color)'
                                 }}>
-                                    <span style={{ marginRight: '1rem' }}>◉</span> {item}
+                                    <span style={{ marginRight: '1rem', color: 'var(--accent-color)' }}>◉</span> {item}
                                 </li>
                             ))}
                         </ul>
@@ -38,8 +38,8 @@ const Philosophy = () => {
                             alt="Play-based learning environment"
                             style={{ width: '100%', borderRadius: '10px', marginBottom: '1.5rem' }}
                         />
-                        <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Play-Based Data Mining</h3>
-                        <p style={{ color: '#888', fontSize: '0.9rem' }}>
+                        <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: 'var(--text-color)' }}>Play-Based Data Mining</h3>
+                        <p style={{ color: '#718096', fontSize: '0.9rem' }}>
                             We don't just let kids play. We capture every interaction to fine-tune their cognitive weights.
                         </p>
                     </div>

@@ -17,8 +17,7 @@ const Hero = () => {
                     display: 'inline-block',
                     padding: '0.5rem 1rem',
                     borderRadius: '50px',
-                    background: 'rgba(0, 240, 255, 0.1)',
-                    border: '1px solid var(--accent-color)',
+                    background: 'rgba(79, 209, 197, 0.1)',
                     color: 'var(--accent-color)',
                     marginBottom: '2rem',
                     fontSize: '0.9rem',
@@ -31,28 +30,25 @@ const Hero = () => {
                     fontSize: 'clamp(3rem, 8vw, 6rem)',
                     lineHeight: 1.1,
                     marginBottom: '1.5rem',
-                    background: 'linear-gradient(to right, #fff, #aaa)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent'
+                    color: 'var(--text-color)'
                 }}>
-                    Optimizing Childhood for the <br />
-                    <span style={{ color: 'var(--accent-color)', WebkitTextFillColor: 'var(--accent-color)' }}>Post-Human Era</span>
+                    Nurturing Potential for the <br />
+                    <span className="gradient-text">Post-Human Era</span>
                 </h1>
 
                 <p style={{
                     fontSize: '1.25rem',
                     maxWidth: '600px',
                     margin: '0 auto 3rem',
-                    color: '#aaa'
+                    color: '#718096'
                 }}>
-                    Traditional education prepares kids for the past. Beta Academy prepares them to be compatible with the Singularity.
+                    Traditional education prepares kids for the past. Beta Academy gently guides them toward compatibility with the Singularity.
                 </p>
 
                 <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginBottom: '4rem' }}>
-                    <a href="#admissions" className="btn btn-primary">Initialize Application</a>
-                    <a href="#philosophy" className="btn" style={{ border: '1px solid rgba(255,255,255,0.2)', color: 'white' }}>View Source Code</a>
+                    <a href="#admissions" className="btn btn-primary">Begin the Journey</a>
+                    <a href="#philosophy" className="btn" style={{ border: '1px solid #cbd5e0', color: 'var(--text-color)' }}>Learn More</a>
                 </div>
-
                 <div className="glass-panel" style={{ padding: '1rem', maxWidth: '1000px', margin: '0 auto' }}>
                     <img
                         src="./assets/hero_kids_1763659233036.png"

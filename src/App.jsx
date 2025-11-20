@@ -25,9 +25,9 @@ function App() {
           BETA ACADEMY
         </div>
         <div style={{ display: 'flex', gap: '2rem' }}>
-          <a href="#philosophy" style={{ color: 'white', textDecoration: 'none' }}>The Algorithm</a>
-          <a href="#pricing" style={{ color: 'white', textDecoration: 'none' }}>Investment</a>
-          <a href="#admissions" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}>Join Waitlist</a>
+          <a href="#philosophy" style={{ color: 'var(--text-color)', textDecoration: 'none', fontWeight: 500 }}>The Approach</a>
+          <a href="#pricing" style={{ color: 'var(--text-color)', textDecoration: 'none', fontWeight: 500 }}>Tuition</a>
+          <a href="#admissions" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem', borderRadius: '50px', textDecoration: 'none' }}>Join Waitlist</a>
         </div>
       </nav>
 
