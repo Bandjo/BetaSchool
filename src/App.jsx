@@ -24,7 +24,6 @@ function App() {
         <div className="nav-links">
           <a href="#philosophy" style={{ color: 'var(--text-color)', textDecoration: 'none', fontWeight: 500 }}>The Approach</a>
           <a href="#pricing" style={{ color: 'var(--text-color)', textDecoration: 'none', fontWeight: 500 }}>Tuition</a>
-          <a href="#admissions" className="btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem', borderRadius: '50px', textDecoration: 'none' }}>Join Waitlist</a>
         </div>
       </nav>
 

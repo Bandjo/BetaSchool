@@ -48,7 +48,7 @@ const Hero = () => {
                 </p>
 
                 <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginBottom: '4rem' }}>
-                    <a href="#admissions" className="btn btn-primary">Begin the Journey</a>
+                    <a href="#application-form" className="btn btn-primary">Begin the Journey</a>
                     <a href="#philosophy" className="btn" style={{ border: '1px solid #cbd5e0', color: 'var(--text-color)' }}>Learn More</a>
                 </div>
                 <div className="glass-panel" style={{ padding: '1rem', maxWidth: '1000px', margin: '0 auto' }}>

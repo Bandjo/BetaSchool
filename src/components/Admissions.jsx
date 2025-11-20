@@ -29,7 +29,7 @@ const Admissions = () => {
                     </div>
 
                     <div>
-                        <h2 style={{ fontSize: '3rem', marginBottom: '2rem', color: 'var(--text-color)' }}>Apply Now</h2>
+                        <h2 id="application-form" style={{ fontSize: '3rem', marginBottom: '2rem', color: 'var(--text-color)', scrollMarginTop: '100px' }}>Apply Now</h2>
                         <p style={{ marginBottom: '2rem', color: '#4a5568' }}>
                             Our selection process is rigorous. We only accept children with high potential for AGI alignment.
                         </p>
