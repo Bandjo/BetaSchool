@@ -34,7 +34,7 @@ const Hero = () => {
                     maxWidth: '15ch',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    letterSpacing: 'normal'
+                    letterSpacing: '0.02em'
                 }}>
                     Nurturing Potential for the <span className="gradient-text">Post-Human Era</span>
                 </h1>
