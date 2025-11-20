@@ -2,13 +2,12 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section className="hero-gradient" style={{
+        <section className="hero-gradient hero-section" style={{
             minHeight: '100vh',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             textAlign: 'center',
-            padding: '8rem 2rem 4rem',
             position: 'relative',
             overflow: 'hidden'
         }}>
