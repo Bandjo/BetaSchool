@@ -4,7 +4,7 @@ const Philosophy = () => {
     return (
         <section id="philosophy" style={{ padding: '8rem 0' }}>
             <div className="container">
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+                <div className="grid-2-cols">
                     <div>
                         <h2 style={{ fontSize: '3rem', marginBottom: '2rem', color: 'var(--text-color)' }}>The Algorithm <br /> <span className="gradient-text">Knows Best</span></h2>
                         <p style={{ marginBottom: '1.5rem', color: '#4a5568', fontSize: '1.1rem' }}>

@@ -4,12 +4,7 @@ const Admissions = () => {
     return (
         <section id="admissions" style={{ padding: '8rem 0' }}>
             <div className="container">
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: '1fr 1fr',
-                    gap: '4rem',
-                    alignItems: 'center'
-                }}>
+                <div className="grid-2-cols">
                     <div>
                         <div className="glass-panel" style={{ position: 'relative' }}>
                             <img
